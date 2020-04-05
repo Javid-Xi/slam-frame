@@ -19,9 +19,9 @@ include_directories(
   ${catkin_INCLUDE_DIRS}
 )
 
-add_executable( my_serial_node src/my_serial_node.cpp)
+add_executable( serial_node src/serial_node.cpp)
 
-target_link_libraries( my_serial_node
+target_link_libraries( serial_node
   ${catkin_LIBRARIES}
 )
 

@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
 <package>
-  <name> my_serial_node</name>
+  <name> serial_node</name>
   <version>0.0.0</version>
   <description>my serial node </description>
 
-  <author email="steven_1825@163.com">Steven</author>
+  <author email="javidxi1012@163.com">Steven</author>
 
-  <maintainer email="steven_1825@163.com">Steven</maintainer>
+  <maintainer email="javidxi1012@163.com">Steven</maintainer>
 
   <license>BSD</license>
 
