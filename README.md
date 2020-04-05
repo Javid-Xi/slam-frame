@@ -1,2 +1,2 @@
-# My_SLAM
-SLAM framework.
+# slam-frame
+SLAM framework in development.
