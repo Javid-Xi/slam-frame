@@ -5,18 +5,18 @@ Simulation of SLAM algorithm and autonomous navigation algorithm.
 博客文章(blog): [Cartographer算法和自主导航算法仿真](https://javid.cn/slam-sim/)
 
 ## 1. 仿真环境
-<img src="https://cdn.jsdelivr.net/gh/Javid-Xi/cdn@1.7.3/img/blog/sim/mylab.jpg" width="90%"/>
+![mylab.jpg](https://cdn.jsdelivr.net/gh/Javid-Xi/cdn@1.7.3/img/blog/sim/mylab.jpg)
 
 ## 2. Cartographer算法仿真
 ### 2.1 仿真效果
-<img src="https://cdn.jsdelivr.net/gh/Javid-Xi/cdn@1.7.3/img/blog/sim/cartographer.jpg" width="90%"/>
+![cartographer.jpg](https://cdn.jsdelivr.net/gh/Javid-Xi/cdn@1.7.3/img/blog/sim/cartographer.jpg)
 
 ### 2.2 计算图
-<img src="https://cdn.jsdelivr.net/gh/Javid-Xi/cdn@1.7.3/img/blog/sim/slam-graph.jpg"/>
+![slam-graph.jpg](https://cdn.jsdelivr.net/gh/Javid-Xi/cdn@1.7.3/img/blog/sim/slam-graph.jpg)
 
 ## 3. 自主导航算法仿真
 
-### 4.1 仿真效果
+### 3.1 仿真效果
 设定目标点并进行路径规划：
 <table>
 	<tr>
@@ -32,5 +32,5 @@ Simulation of SLAM algorithm and autonomous navigation algorithm.
 	</tr>
 </table>
 
-### 4.2 计算图
-<img src="https://cdn.jsdelivr.net/gh/Javid-Xi/cdn@1.7.3/img/blog/sim/nav-graph.jpg"/>
+### 3.2 计算图
+![nav-graph.jpg](https://cdn.jsdelivr.net/gh/Javid-Xi/cdn@1.7.3/img/blog/sim/nav-graph.jpg)
