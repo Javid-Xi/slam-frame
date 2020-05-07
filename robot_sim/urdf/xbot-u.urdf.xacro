@@ -22,10 +22,9 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://robot_sim/models/meshes/base_link.obj" />
+        <mesh filename="package://robot_sim_demo/models/meshes/base_link.dae" />
       </geometry>
     </visual>
-
 
     <collision name="front_omniwheel">
       <origin xyz="0.18 0 0.02" rpy="0 0 0" />
@@ -91,9 +90,9 @@
     <visual name="left_wheel_visual">
       <origin xyz="0 0 0" rpy="0 0 -1.57079632"/>
       <geometry>
-        <mesh filename="package://robot_sim/models/meshes/wheel.obj" />
+        <mesh filename="package://robot_sim_demo/models/meshes/wheel.dae" />
       </geometry>
-    </visual>
+    </visual>    
     <inertial>
       <origin rpy="0 0 0" xyz="0 0 0" />
       <mass value="4.3542" />
@@ -120,9 +119,9 @@
     <visual name="right_wheel_visual">
       <origin xyz="0 0 0" rpy="0 0 1.57079632"/>
       <geometry>
-        <mesh filename="package://robot_sim/models/meshes/wheel.obj" />
+        <mesh filename="package://robot_sim_demo/models/meshes/wheel.dae" />
       </geometry>
-    </visual>
+    </visual>    
     <inertial>
       <origin rpy="0 0 0" xyz="0 0 0" />
       <mass value="4.3542" />
@@ -148,7 +147,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 1.57079632" />
       <geometry>
-        <mesh filename="package://robot_sim/models/meshes/yaw_platform.obj" />
+        <mesh filename="package://robot_sim_demo/models/meshes/yaw_platform.dae" />
       </geometry>
     </visual>
     <collision>
@@ -177,7 +176,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://robot_sim/models/meshes/pitch_platform.obj" />
+        <mesh filename="package://robot_sim_demo/models/meshes/pitch_platform.dae" />
       </geometry>
     </visual>
     <collision>
@@ -209,7 +208,7 @@
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
         <!--<mesh filename="package://robot_sim_demo/models/meshes/xtion_pro_camera.dae" />-->
-        <mesh filename="package://robot_sim/models/meshes/realsense.obj" />
+        <mesh filename="package://robot_sim_demo/models/meshes/realsense.dae" />
       </geometry>
     </visual>
     <inertial>
