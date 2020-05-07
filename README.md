@@ -16,7 +16,7 @@ $ rosdep install --from-paths src --ignore-src --rosdistro=kinetic -y
 <img src="https://cdn.jsdelivr.net/gh/Javid-Xi/cdn@1.7.3/img/blog/sim/cartographer.jpg" width="80%"/>
 
 ### 3.2 计算图
-<img src="https://cdn.jsdelivr.net/gh/Javid-Xi/cdn@1.7.3/img/blog/sim/slam-graph.jpg" width="80%"/>
+<img src="https://cdn.jsdelivr.net/gh/Javid-Xi/cdn@1.7.3/img/blog/sim/slam-graph.jpg"/>
 
 ## 3. 自主导航算法仿真
 ### 3.1 导航效果
@@ -37,5 +37,5 @@ $ rosdep install --from-paths src --ignore-src --rosdistro=kinetic -y
 </table>
 
 ### 3.2 计算图
-<img src="https://cdn.jsdelivr.net/gh/Javid-Xi/cdn@1.7.3/img/blog/sim/nav-graph.jpg" width="80%"/>
+<img src="https://cdn.jsdelivr.net/gh/Javid-Xi/cdn@1.7.3/img/blog/sim/nav-graph.jpg"/>
 
