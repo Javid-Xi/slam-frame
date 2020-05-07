@@ -21,20 +21,21 @@ $ rosdep install --from-paths src --ignore-src --rosdistro=kinetic -y
 ## 3. 自主导航算法仿真
 ### 3.1 导航效果
 设定目标点并进行路径规划：
-<table width="80%">
+<table>
 	<tr>
-		<td><img src="https://cdn.jsdelivr.net/gh/Javid-Xi/cdn@1.7.2/img/blog/sim/nav2.jpg"></td>
-		<td><img src="https://cdn.jsdelivr.net/gh/Javid-Xi/cdn@1.7.2/img/blog/sim/nav1.jpg"></td>
+		<td><img src="https://cdn.jsdelivr.net/gh/Javid-Xi/cdn@1.7.2/img/blog/sim/nav2.jpg"/></td>
+		<td><img src="https://cdn.jsdelivr.net/gh/Javid-Xi/cdn@1.7.2/img/blog/sim/nav1.jpg"/></td>
 	</tr>
 </table>
 
 抵达目标点：
-<table width="80%">
+<table>
 	<tr>
-		<td><img src="https://cdn.jsdelivr.net/gh/Javid-Xi/cdn@1.7.2/img/blog/sim/nav4.jpg"></td>
-		<td><img src="https://cdn.jsdelivr.net/gh/Javid-Xi/cdn@1.7.2/img/blog/sim/nav3.jpg"></td>
+		<td><img src="https://cdn.jsdelivr.net/gh/Javid-Xi/cdn@1.7.2/img/blog/sim/nav4.jpg"/></td>
+		<td><img src="https://cdn.jsdelivr.net/gh/Javid-Xi/cdn@1.7.2/img/blog/sim/nav3.jpg"/></td>
 	</tr>
 </table>
 
 ### 3.2 计算图
-![nav-graph.jpg](https://cdn.jsdelivr.net/gh/Javid-Xi/cdn@1.7.3/img/blog/sim/nav-graph.jpg)
+<img src="https://cdn.jsdelivr.net/gh/Javid-Xi/cdn@1.7.3/img/blog/sim/nav-graph.jpg" width="80%"/>
+
