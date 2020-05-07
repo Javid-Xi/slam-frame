@@ -19,6 +19,6 @@
   <!-- Oh, you wanted a robot? -->
   <include file="$(find robot_sim)/launch/include/$(arg robot).launch.xml" />
 
-  <!--node    name="rviz"    pkg="rviz"    type="rviz"    args="-d $(find robot_sim_demo)/urdf_gazebo.rviz" /-->
+  <!--node    name="rviz"    pkg="rviz"    type="rviz"    args="-d $(find robot_sim)/urdf_gazebo.rviz" /-->
   
 </launch>
