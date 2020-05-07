@@ -16,7 +16,6 @@
     <remap from="imu_out" to="/imu" />
   </node-->
 
-
   <node name="rviz" pkg="rviz" type="rviz" required="true"
       args="-d $(find slam_sim)/rviz/cartographer.rviz" />
 

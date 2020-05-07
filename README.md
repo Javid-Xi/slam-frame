@@ -1,22 +1,24 @@
 # slam-frame
-Simulation of SLAM algorithm and autonomous navigation algorithm.  
-正在完善中...
+Simulation of SLAM algorithm and autonomous navigation algorithm.
 
-博客文章(blog): [Cartographer算法和自主导航算法仿真](https://javid.cn/slam-sim/)
+博客(blog): [Cartographer算法和自主导航算法仿真](https://javid.cn/slam-sim/)
 
-## 1. 仿真环境
-![mylab.jpg](https://cdn.jsdelivr.net/gh/Javid-Xi/cdn@1.7.3/img/blog/sim/mylab.jpg)
+## 1. 安装依赖
+```sh
+$ rosdep install --from-paths src --ignore-src --rosdistro=kinetic -y
+```
+## 2. 仿真环境
+<img src="https://cdn.jsdelivr.net/gh/Javid-Xi/cdn@1.7.3/img/blog/sim/mylab.jpg" width="80%"/>
 
-## 2. Cartographer算法仿真
-### 2.1 仿真效果
-![cartographer.jpg](https://cdn.jsdelivr.net/gh/Javid-Xi/cdn@1.7.3/img/blog/sim/cartographer.jpg)
+## 3. Cartographer算法仿真
+### 3.1 建图效果
+<img src="https://cdn.jsdelivr.net/gh/Javid-Xi/cdn@1.7.3/img/blog/sim/cartographer.jpg" width="80%"/>
 
-### 2.2 计算图
-![slam-graph.jpg](https://cdn.jsdelivr.net/gh/Javid-Xi/cdn@1.7.3/img/blog/sim/slam-graph.jpg)
+### 3.2 计算图
+<img src="https://cdn.jsdelivr.net/gh/Javid-Xi/cdn@1.7.3/img/blog/sim/slam-graph.jpg" width="80%"/>
 
 ## 3. 自主导航算法仿真
-
-### 3.1 仿真效果
+### 3.1 导航效果
 设定目标点并进行路径规划：
 <table>
 	<tr>
