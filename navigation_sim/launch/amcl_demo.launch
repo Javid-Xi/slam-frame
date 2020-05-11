@@ -1,9 +1,9 @@
 <launch>
-  <!-- Map server -->
+  <!-- 启动 Map server -->
   <arg name="map_file" default="$(find slam_sim)/maps/mylab_gmap.yaml"/>
   <node name="map_server" pkg="map_server" type="map_server" args="$(arg map_file)" />
 
-  <!-- Localization -->
+  <!-- 初始化位姿 -->
   <arg name="initial_pose_x" default="5.0"/>
   <arg name="initial_pose_y" default="0.0"/>
   <arg name="initial_pose_a" default="-2.0"/>
@@ -15,6 +15,7 @@
     <arg name="initial_pose_a" value="$(arg initial_pose_a)"/>
   </include>
 
-  <!-- Move base -->
+  <!-- 启动 Move base -->
  <include file="$(find navigation_sim)/launch/include/move_base.launch.xml"/>
 </launch>
+
